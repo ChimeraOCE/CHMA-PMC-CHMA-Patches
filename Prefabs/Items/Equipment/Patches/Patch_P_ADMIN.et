@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Admin Patch"
+     Description "Patch for Admin"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{68F05D13C6902B1E}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{B17C0D8D7B9AA50D}Assets/Characters/Patches/data/ADMIN.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{B17C0D8D7B9AA50D}Assets/Characters/Patches/data/ADMIN.emat"
+   }
+   ItemMaterialsOverride {
+    "{B17C0D8D7B9AA50D}Assets/Characters/Patches/data/ADMIN.emat"
+   }
+  }
+ }
+ coords 0.084 -1.687 0.049
+}

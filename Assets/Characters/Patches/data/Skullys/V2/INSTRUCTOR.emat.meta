@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F3E496E6A5382D2E}Assets/Characters/Patches/data/Skullys/V2/INSTRUCTOR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

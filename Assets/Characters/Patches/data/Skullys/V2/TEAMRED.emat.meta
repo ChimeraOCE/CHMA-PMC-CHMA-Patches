@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{84B49216E10826F7}Assets/Characters/Patches/data/Skullys/V2/TEAMRED.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

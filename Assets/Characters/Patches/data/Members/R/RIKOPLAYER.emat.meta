@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D969E8B0464E6925}Assets/Characters/Patches/data/Members/R/RIKOPLAYER.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

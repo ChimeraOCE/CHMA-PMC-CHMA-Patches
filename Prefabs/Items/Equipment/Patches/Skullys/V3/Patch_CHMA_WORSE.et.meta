@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AD8A4F243133921D}Prefabs/Items/Equipment/Patches/Skullys/V3/Patch_CHMA_WORSE.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

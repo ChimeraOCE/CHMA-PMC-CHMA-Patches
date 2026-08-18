@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C9C39D69EFFFBC8C}Assets/Characters/Patches/data/Skullys/V3/FRIEND.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

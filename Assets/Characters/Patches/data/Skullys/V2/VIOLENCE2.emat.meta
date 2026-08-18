@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{63974049463FDA45}Assets/Characters/Patches/data/Skullys/V2/VIOLENCE2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

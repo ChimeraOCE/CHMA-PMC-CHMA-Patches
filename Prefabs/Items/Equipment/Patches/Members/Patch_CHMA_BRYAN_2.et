@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Bryan 2 Patch"
+     Description "2nd Patch for Bryan"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{690622EA6A99D664}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{939FE1B58386EFCD}Assets/Characters/Patches/data/BRYAN 2.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{939FE1B58386EFCD}Assets/Characters/Patches/data/BRYAN 2.emat"
+   }
+   ItemMaterialsOverride {
+    "{939FE1B58386EFCD}Assets/Characters/Patches/data/BRYAN 2.emat"
+   }
+  }
+ }
+ coords 0.084 -1.687 0.049
+}

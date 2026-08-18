@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AEF99A06850781B9}Prefabs/Items/Equipment/Patches/Skullys/V3/Patch_CHMA_BPRECHMA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5C47690D8009A2A6}Prefabs/Items/Equipment/Patches/Skullys/Patch_CHMA_BADGERMES.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

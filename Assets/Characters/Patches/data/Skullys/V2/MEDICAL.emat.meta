@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{066A5D85F652C6B1}Assets/Characters/Patches/data/Skullys/V2/MEDICAL.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FA1A803A8EBED701}Assets/Characters/Patches/data/Skullys/V3/BPRECHMA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

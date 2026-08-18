@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Muggs Patch"
+     Description "Patch for Muggs"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{66E4717422C88436}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{CADC8BBDF3629A4D}Assets/Characters/Patches/data/MUGSS.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{CADC8BBDF3629A4D}Assets/Characters/Patches/data/MUGSS.emat"
+   }
+   ItemMaterialsOverride {
+    "{CADC8BBDF3629A4D}Assets/Characters/Patches/data/MUGSS.emat"
+   }
+  }
+ }
+ coords 0.004 0 -0.034
+}

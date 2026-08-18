@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Rubi Patch"
+     Description "Patch for Rubi"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6A1E5E6E2B45257D}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{6225BA2C4185AE30}Assets/Characters/Patches/data/Members/R/RUBI.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{6225BA2C4185AE30}Assets/Characters/Patches/data/Members/R/RUBI.emat"
+   }
+   ItemMaterialsOverride {
+    "{6225BA2C4185AE30}Assets/Characters/Patches/data/Members/R/RUBI.emat"
+   }
+  }
+ }
+ coords 0.002 0 -0.025
+}

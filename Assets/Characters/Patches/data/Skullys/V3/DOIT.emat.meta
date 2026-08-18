@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F02FE24C5C588BE8}Assets/Characters/Patches/data/Skullys/V3/DOIT.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

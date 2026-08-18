@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Team Green Patch"
+     Description "Team Green by Skully"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{69F16AC89FA8F4C9}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{E95AD4339B6C4CBC}Assets/Characters/Patches/data/Skullys/V2/TEAMGREEN.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{E95AD4339B6C4CBC}Assets/Characters/Patches/data/Skullys/V2/TEAMGREEN.emat"
+   }
+   ItemMaterialsOverride {
+    "{E95AD4339B6C4CBC}Assets/Characters/Patches/data/Skullys/V2/TEAMGREEN.emat"
+   }
+  }
+ }
+ coords -0.009 -0.002 -0.068
+}

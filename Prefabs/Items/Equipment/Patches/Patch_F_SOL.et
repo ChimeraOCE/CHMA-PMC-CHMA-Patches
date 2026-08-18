@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "SOL Patch"
+     Description "Patch for SOL"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6738555D9192C208}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{E8355B457C95003C}Assets/Characters/Patches/data/CHMA.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{C5FBC96373C0B00E}Assets/Characters/Patches/data/SOL.emat"
+   }
+   ItemMaterialsOverride {
+    "{C5FBC96373C0B00E}Assets/Characters/Patches/data/SOL.emat"
+   }
+  }
+ }
+ coords 0.023 0 -0.027
+}

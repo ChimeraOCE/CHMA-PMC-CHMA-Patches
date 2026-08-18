@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Solid Blue Patch"
+     Description "Solid Green Patch by Skully"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{69F16ACE0D274F0C}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{A54358C55FDFAB49}Assets/Characters/Patches/data/Skullys/V2/SOLIDGREEN.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{A54358C55FDFAB49}Assets/Characters/Patches/data/Skullys/V2/SOLIDGREEN.emat"
+   }
+   ItemMaterialsOverride {
+    "{A54358C55FDFAB49}Assets/Characters/Patches/data/Skullys/V2/SOLIDGREEN.emat"
+   }
+  }
+ }
+ coords -0.009 -0.002 -0.068
+}

@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Tan Patch"
+     Description "Patch for Tan"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{69F2655DF0508E3E}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{54B22643C1BCABD6}Assets/Characters/Patches/data/Members/TAN.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{54B22643C1BCABD6}Assets/Characters/Patches/data/Members/TAN.emat"
+   }
+   ItemMaterialsOverride {
+    "{54B22643C1BCABD6}Assets/Characters/Patches/data/Members/TAN.emat"
+   }
+  }
+ }
+ coords -0.009 -0.002 -0.068
+}

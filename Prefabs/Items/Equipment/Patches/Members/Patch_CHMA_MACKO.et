@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Macko Patch"
+     Description "Patch for Macko"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{69B802482E3EF14F}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{C42D6A0ABEB991BA}Assets/Characters/Patches/data/Members/MACKO.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{C42D6A0ABEB991BA}Assets/Characters/Patches/data/Members/MACKO.emat"
+   }
+   ItemMaterialsOverride {
+    "{C42D6A0ABEB991BA}Assets/Characters/Patches/data/Members/MACKO.emat"
+   }
+  }
+ }
+ coords 0.002 0 -0.025
+}

@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Doordash Patch"
+     Description "Doordash Patch for CHMA"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6A1E5E787508CFEE}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{6ABDC2F7F172D412}Assets/Characters/Patches/data/DOORDASH.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{6ABDC2F7F172D412}Assets/Characters/Patches/data/DOORDASH.emat"
+   }
+   ItemMaterialsOverride {
+    "{6ABDC2F7F172D412}Assets/Characters/Patches/data/DOORDASH.emat"
+   }
+  }
+ }
+ coords 0.023 0 -0.027
+}

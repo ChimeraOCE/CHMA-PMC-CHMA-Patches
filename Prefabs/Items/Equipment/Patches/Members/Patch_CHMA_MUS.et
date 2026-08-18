@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Mus Patch"
+     Description "Patch for Mus"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{66E0C899C7C4DF8F}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{DCE7E3C21168E2A6}Assets/Characters/Patches/data/MUS.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{DCE7E3C21168E2A6}Assets/Characters/Patches/data/MUS.emat"
+   }
+   ItemMaterialsOverride {
+    "{DCE7E3C21168E2A6}Assets/Characters/Patches/data/MUS.emat"
+   }
+  }
+ }
+ coords 0.084 -1.687 0.049
+}

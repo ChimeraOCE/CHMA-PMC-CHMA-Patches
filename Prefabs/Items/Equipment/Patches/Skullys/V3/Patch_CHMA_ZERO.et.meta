@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A3CE38C5D1FE20FF}Prefabs/Items/Equipment/Patches/Skullys/V3/Patch_CHMA_ZERO.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

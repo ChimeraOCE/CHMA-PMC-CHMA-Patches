@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A9A8D5BEC3902C7D}Prefabs/Items/Equipment/Patches/Skullys/Patch_CHMA_DOORKICKER.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

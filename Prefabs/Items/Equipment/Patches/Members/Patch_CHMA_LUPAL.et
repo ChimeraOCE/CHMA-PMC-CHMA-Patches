@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Lupal Patch"
+     Description "Patch for Lupal"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{66E178532178F120}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{04432E88F7ECFC4D}Assets/Characters/Patches/data/LUPAL.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{04432E88F7ECFC4D}Assets/Characters/Patches/data/LUPAL.emat"
+   }
+   ItemMaterialsOverride {
+    "{04432E88F7ECFC4D}Assets/Characters/Patches/data/LUPAL.emat"
+   }
+  }
+ }
+ coords 0.002 0 -0.025
+}

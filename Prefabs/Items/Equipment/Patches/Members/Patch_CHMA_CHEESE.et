@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Cheese Patch"
+     Description "Patch for Cheese"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{66E02A84978437FB}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{08BC36DE727985AC}Assets/Characters/Patches/data/CHEESE.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{08BC36DE727985AC}Assets/Characters/Patches/data/CHEESE.emat"
+   }
+   ItemMaterialsOverride {
+    "{08BC36DE727985AC}Assets/Characters/Patches/data/CHEESE.emat"
+   }
+  }
+ }
+ coords -0.009 -0.002 -0.068
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9CB286E2B570F3B0}Assets/Characters/Patches/data/Skullys/V2/SOLIDRED.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

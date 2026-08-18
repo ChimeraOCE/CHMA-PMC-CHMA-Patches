@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "Training Patch"
+     Description "Training Patch by Skully"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{69F16ADC6174599B}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{CDCCEA6C9552EEB1}Assets/Characters/Patches/data/Skullys/V2/TRAINING.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{CDCCEA6C9552EEB1}Assets/Characters/Patches/data/Skullys/V2/TRAINING.emat"
+   }
+   ItemMaterialsOverride {
+    "{CDCCEA6C9552EEB1}Assets/Characters/Patches/data/Skullys/V2/TRAINING.emat"
+   }
+  }
+ }
+ coords -0.009 -0.002 -0.068
+}

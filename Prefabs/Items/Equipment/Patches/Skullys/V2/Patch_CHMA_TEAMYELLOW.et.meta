@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E342B3CB4BE6696D}Prefabs/Items/Equipment/Patches/Skullys/Patch_CHMA_TEAMYELLOW.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
