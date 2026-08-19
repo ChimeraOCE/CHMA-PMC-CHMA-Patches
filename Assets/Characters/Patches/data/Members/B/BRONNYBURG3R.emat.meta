@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{95E7DD46B5AD7D90}Assets/Characters/Patches/data/Members/B/BRONNYBURG3R.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

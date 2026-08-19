@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{31E908B1FEED9D39}Assets/Characters/Patches/data/Members/T/THETAXCOLLECTOR.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
