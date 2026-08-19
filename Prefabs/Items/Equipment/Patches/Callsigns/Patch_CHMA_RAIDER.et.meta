@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DD4D068D34A84962}Prefabs/Items/Equipment/Patches/Callsigns/Patch_CHMA_RAIDER.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

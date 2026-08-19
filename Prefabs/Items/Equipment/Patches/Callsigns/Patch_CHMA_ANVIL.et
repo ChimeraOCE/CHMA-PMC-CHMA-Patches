@@ -1,0 +1,36 @@
+GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
+ ID "5DB09136945FC6DB"
+ components {
+  InventoryItemComponent "{5DB09136B1C985CE}" {
+   Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
+     Name "CHMA ANVIL Patch"
+     Description "Patch for ANVIL"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DB09136B1C985C3}" {
+      CameraDistanceToItem 0.6
+     }
+    }
+   }
+  }
+  MeshObject "{5DB09136B1C985B5}" {
+   Materials {
+    MaterialAssignClass "{6A26741D0022DC11}" {
+     SourceMaterial "patch_us_flag"
+     AssignedMaterial "{2B53226D2A2FA267}Assets/Characters/Patches/data/Callsigns/Anvil.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
+   Animate 1
+   WornMaterialsOverride {
+    "{2B53226D2A2FA267}Assets/Characters/Patches/data/Callsigns/Anvil.emat"
+   }
+   ItemMaterialsOverride {
+    "{2B53226D2A2FA267}Assets/Characters/Patches/data/Callsigns/Anvil.emat"
+   }
+  }
+ }
+ coords 0.023 0 -0.027
+}
