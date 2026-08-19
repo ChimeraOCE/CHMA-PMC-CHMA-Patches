@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BF93DE4E1FCDC6E1}Assets/Characters/Patches/data/Callsigns/Ripper.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
