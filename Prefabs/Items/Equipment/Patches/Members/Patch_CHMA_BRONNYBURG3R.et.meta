@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A2E11FF5CB19ACBC}Prefabs/Items/Equipment/Patches/Members/Patch_CHMA_BRONNYBURG3R.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
