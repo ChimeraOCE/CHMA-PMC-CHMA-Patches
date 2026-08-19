@@ -1,7 +1,7 @@
 MatPBRBasic {
  AllowUserAlphaBias 1
  DisableUserAphaInShadow 1
- BCRMap "{55434D56BBD1A1F5}Assets/Characters/Patches/data/Members/B/BLOODRAVEN.edds"
+ BCRMap "{5752A65401750C34}Assets/Characters/Patches/data/Members/T/THETAXCOLLECTOR.edds"
  OpacityMap "{70A53F4EA373F142}Assets/Characters/Basebody/Data/HeadClipping_A.edds"
  NMOMap "{BF20301E17ACA4A1}Assets/Characters/Patches/data/rhs_patch_us_flag_01_NMO.edds"
 }
