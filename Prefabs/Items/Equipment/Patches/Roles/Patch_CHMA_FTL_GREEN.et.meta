@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CB08D6216D0E20FF}Prefabs/Items/Equipment/Patches/Roles/Patch_CHMA_FTL_GREEN.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

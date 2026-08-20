@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4D9C2EE2F69F71B3}Prefabs/Items/Equipment/Patches/Callsigns/Patch_CHMA_FTL_RED.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
