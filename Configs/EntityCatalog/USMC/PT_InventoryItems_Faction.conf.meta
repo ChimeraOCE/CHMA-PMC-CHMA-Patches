@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{09D3E67F0A52013B}Configs/EntityCatalog/USMC/PT_InventoryItems_SKULLYS.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

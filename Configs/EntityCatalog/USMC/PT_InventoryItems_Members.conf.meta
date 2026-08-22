@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0C4B2B3DAEF00D00}Configs/EntityCatalog/USMC/PT_InventoryItems_Members.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
