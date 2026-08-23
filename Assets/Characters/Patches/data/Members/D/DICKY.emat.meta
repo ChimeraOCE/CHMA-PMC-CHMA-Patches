@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BBD2E93E2A0FFACF}Assets/Characters/Patches/data/Members/D/DICKY.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

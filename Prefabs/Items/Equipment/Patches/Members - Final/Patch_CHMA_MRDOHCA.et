@@ -4,8 +4,8 @@ GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
   InventoryItemComponent "{5DB09136B1C985CE}" {
    Attributes SCR_ItemAttributeCollection "{5DB09136B1C985C1}" {
     ItemDisplayName SCR_ItemHintUIInfo "{5DB09136B1C985EB}" {
-     Name "Eppsi Patch"
-     Description "Patch for Eppsi"
+     Name "Mrdocah Patch"
+     Description "Patch for Mrdocah"
     }
     CustomAttributes {
      PreviewRenderAttributes "{5DB09136B1C985C3}" {
@@ -16,21 +16,21 @@ GameEntity : "{B6CC74F306F54A8D}Prefabs/Items/Equipment/Patches/Patch_Base.et" {
   }
   MeshObject "{5DB09136B1C985B5}" {
    Materials {
-    MaterialAssignClass "{68F06691F4C8AC15}" {
+    MaterialAssignClass "{6A2D313963680B48}" {
      SourceMaterial "patch_us_flag"
-     AssignedMaterial "{1F8CFC47DE3B725E}Assets/Characters/Patches/data/EPPSI.emat"
+     AssignedMaterial "{F1555C8A0CE1AEAD}Assets/Characters/Patches/data/Members/M/MRDOHCA.emat"
     }
    }
   }
   BaseLoadoutClothComponent "{5DB09136B1C9859A}" {
    Animate 1
    WornMaterialsOverride {
-    "{1F8CFC47DE3B725E}Assets/Characters/Patches/data/EPPSI.emat"
+    "{F1555C8A0CE1AEAD}Assets/Characters/Patches/data/Members/M/MRDOHCA.emat"
    }
    ItemMaterialsOverride {
-    "{1F8CFC47DE3B725E}Assets/Characters/Patches/data/EPPSI.emat"
+    "{F1555C8A0CE1AEAD}Assets/Characters/Patches/data/Members/M/MRDOHCA.emat"
    }
   }
  }
- coords -0.009 -0.002 -0.068
+ coords 0.008 0 -0.037
 }
