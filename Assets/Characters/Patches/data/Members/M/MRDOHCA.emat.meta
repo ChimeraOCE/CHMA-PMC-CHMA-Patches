@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F1555C8A0CE1AEAD}Assets/Characters/Patches/data/Members/M/MRDOHCA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
