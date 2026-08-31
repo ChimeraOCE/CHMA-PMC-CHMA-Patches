@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{54D92006D9E2CA27}Prefabs/Items/Equipment/Patches/Admins/Patch_Skully_Admin_CHMA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
