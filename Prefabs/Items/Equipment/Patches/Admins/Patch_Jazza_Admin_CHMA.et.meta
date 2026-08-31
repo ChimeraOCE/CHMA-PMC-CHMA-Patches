@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0F203CCF5C0D7D97}Prefabs/Items/Equipment/Patches/Admins/Patch_Jazza_Admin_CHMA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

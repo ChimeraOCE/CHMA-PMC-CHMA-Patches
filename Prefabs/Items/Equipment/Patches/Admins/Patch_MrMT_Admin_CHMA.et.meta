@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{571D85A98F0A4720}Prefabs/Items/Equipment/Patches/Admins/Patch_MrMT_Admin_CHMA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

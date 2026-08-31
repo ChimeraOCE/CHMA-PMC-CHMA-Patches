@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5A12CCC3786B9D1E}Assets/Characters/Patches/data/Admins/Mugen_Admin.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
